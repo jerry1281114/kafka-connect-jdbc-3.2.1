@@ -20,3 +20,8 @@ kafka-connect-jdbc with Maven using the standard lifecycle phases.
 # License
 
 The project is licensed under the Apache 2 license.
+
+
+# Build with no tests
+
+```mvn package -Dmaven.test.skip=true```
